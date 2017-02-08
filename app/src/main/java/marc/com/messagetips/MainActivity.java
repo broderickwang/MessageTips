@@ -42,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
 				startActivity(new Intent(MainActivity.this,RetrofitActivity.class));
 			}
 		});
+		findViewById(R.id.gallery).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this,GalleryActivity.class));
+			}
+		});
 
 		i = new Intent(this,MyService.class);
 //		startService(i);
