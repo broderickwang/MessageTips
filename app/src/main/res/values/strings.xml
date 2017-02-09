@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MessageTips</string>
+    <array name="ringtone_list">
+        <item>a</item>
+        <item>b</item>
+        <item>ac</item>
+    </array>
 </resources>

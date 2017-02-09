@@ -36,7 +36,9 @@ public class GalleryActivity extends AppCompatActivity {
 		LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
 		galleryRecy.setLayoutManager(linearLayoutManager);
 		galleryRecy.setAdapter(adapter);
-		new LinearSnapHelper().attachToRecyclerView(galleryRecy);
+//		new LinearSnapHelper().attachToRecyclerView(galleryRecy);
+		MySnapHelper snapHelper = new MySnapHelper();
+		snapHelper.attachToRecyclerView(galleryRecy);
 
 
 

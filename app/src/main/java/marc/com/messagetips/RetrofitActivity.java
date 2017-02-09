@@ -3,6 +3,7 @@ package marc.com.messagetips;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.LinearSnapHelper;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Toast;
@@ -29,7 +30,8 @@ public class RetrofitActivity extends AppCompatActivity {
 		setContentView(R.layout.activity_http);
 		ButterKnife.bind(this);
 
-		LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+//		LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+		LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
 		carList.setLayoutManager(linearLayoutManager);
 
 		adapter = new CarListAdapter(this);
@@ -48,6 +50,7 @@ public class RetrofitActivity extends AppCompatActivity {
 		});
 
 		carList.setAdapter(adapter);
+		new LinearSnapHelper().attachToRecyclerView(carList);
 
 		retrofit();
 	}
