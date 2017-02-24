@@ -1,4 +1,4 @@
-package marc.com.messagetips;
+package marc.com.messagetips.UI;
 
 import android.content.pm.ActivityInfo;
 import android.media.AudioManager;
@@ -15,6 +15,8 @@ import android.widget.MediaController;
 import android.widget.VideoView;
 
 import java.io.IOException;
+
+import marc.com.messagetips.R;
 
 public class VideoAcitivity extends AppCompatActivity implements MediaPlayer.OnBufferingUpdateListener,
 		MediaPlayer.OnCompletionListener,MediaPlayer.OnPreparedListener,SurfaceHolder.Callback{

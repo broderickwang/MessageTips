@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="marc.com.messagetips.MainActivity">
+    tools:context="marc.com.messagetips.UI.MainActivity">
 
     <TextView
         android:id="@+id/text"
@@ -54,4 +54,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TAB页面"/>
+    <Button
+        android:id="@+id/dbbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数据绑定demo"/>
+    <Button
+        android:id="@+id/expplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ExoPlayerVideoView Demo"/>
 </LinearLayout>

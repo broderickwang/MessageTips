@@ -1,4 +1,4 @@
-package marc.com.messagetips;
+package marc.com.messagetips.Service;
 
 import android.app.Service;
 import android.content.Intent;
@@ -18,6 +18,7 @@ public class MyService extends Service {
 		@Override
 		public void run() {
 
+			// TODO: 2017/2/24
 			Log.i("TAG", "run: 进行网络访问");
 
 			handler.postDelayed(this,1000*5);

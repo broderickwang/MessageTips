@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".UI.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -18,15 +18,21 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".MyService"/>
+        <service android:name=".Service.MyService"/>
 
-        <activity android:name=".VideoAcitivity">
+        <activity android:name=".UI.VideoAcitivity">
         </activity>
         <activity android:name=".RetrofitActivity">
         </activity>
         <activity android:name=".GalleryActivity">
         </activity>
         <activity android:name=".TabActivity">
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".UI.DataBindActivity">
+        </activity>
+        <activity android:name=".UI.ExoPlayActivity">
         </activity>
     </application>
 

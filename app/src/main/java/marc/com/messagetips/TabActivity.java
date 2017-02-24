@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import marc.com.messagetips.Adapter.TabViewPagerAdapter;
+import marc.com.messagetips.Fragement.TestFragement;
 
 public class TabActivity extends AppCompatActivity {
 

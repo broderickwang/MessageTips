@@ -1,4 +1,4 @@
-package marc.com.messagetips;
+package marc.com.messagetips.UI;
 
 import android.app.DatePickerDialog;
 import android.content.DialogInterface;
@@ -13,6 +13,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jauker.widget.BadgeView;
+
+import marc.com.messagetips.GalleryActivity;
+import marc.com.messagetips.R;
+import marc.com.messagetips.RetrofitActivity;
+import marc.com.messagetips.Service.MyService;
+import marc.com.messagetips.TabActivity;
 
 public class MainActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
 	BadgeView badge;
@@ -94,6 +100,18 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 			@Override
 			public void onClick(View v) {
 				startActivity(new Intent(MainActivity.this,TabActivity.class));
+			}
+		});
+		findViewById(R.id.dbbind).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this,DataBindActivity.class));
+			}
+		});
+		findViewById(R.id.expplay).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this,ExoPlayActivity.class));
 			}
 		});
 

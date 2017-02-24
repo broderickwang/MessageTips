@@ -5,13 +5,14 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.LinearSnapHelper;
 import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import marc.com.messagetips.Adapter.GalleryListAdapter;
+import marc.com.messagetips.Helper.MySnapHelper;
 
 public class GalleryActivity extends AppCompatActivity {
 

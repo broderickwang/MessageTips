@@ -12,6 +12,10 @@ import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import marc.com.messagetips.Adapter.CarListAdapter;
+import marc.com.messagetips.Bean.JsonBean;
+import marc.com.messagetips.Helper.StaticVal;
+import marc.com.messagetips.Listner.ReycleViewClickListner;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

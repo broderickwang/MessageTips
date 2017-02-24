@@ -1,4 +1,4 @@
-package marc.com.messagetips;
+package marc.com.messagetips.Fragement;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

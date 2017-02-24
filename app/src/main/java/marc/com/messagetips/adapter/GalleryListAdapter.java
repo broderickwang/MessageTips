@@ -1,9 +1,7 @@
-package marc.com.messagetips;
+package marc.com.messagetips.Adapter;
 
 import android.content.Context;
-import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
-import android.support.v7.widget.DrawableUtils;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import java.util.ArrayList;
+
+import marc.com.messagetips.R;
 
 /**
  * Created by Broderick on 2017/2/8.

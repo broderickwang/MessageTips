@@ -1,4 +1,4 @@
-package marc.com.messagetips;
+package marc.com.messagetips.Adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -12,6 +12,11 @@ import com.bumptech.glide.Glide;
 import com.jauker.widget.BadgeView;
 
 import java.util.List;
+
+import marc.com.messagetips.Bean.JsonBean;
+import marc.com.messagetips.R;
+import marc.com.messagetips.Listner.ReycleViewClickListner;
+import marc.com.messagetips.Helper.StaticVal;
 
 /**
  * Created by Broderick on 2017/1/6.

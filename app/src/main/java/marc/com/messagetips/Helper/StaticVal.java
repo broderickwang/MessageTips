@@ -1,4 +1,4 @@
-package marc.com.messagetips;
+package marc.com.messagetips.Helper;
 
 import com.jauker.widget.BadgeView;
 

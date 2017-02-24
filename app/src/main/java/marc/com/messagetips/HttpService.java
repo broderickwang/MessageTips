@@ -1,6 +1,6 @@
 package marc.com.messagetips;
 
-import okhttp3.ResponseBody;
+import marc.com.messagetips.Bean.JsonBean;
 import retrofit2.Call;
 import retrofit2.http.GET;
 

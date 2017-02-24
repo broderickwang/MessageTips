@@ -1,4 +1,4 @@
-package marc.com.messagetips;
+package marc.com.messagetips.Bean;
 
 import com.google.gson.annotations.SerializedName;
 

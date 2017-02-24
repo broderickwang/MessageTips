@@ -1,4 +1,4 @@
-package marc.com.messagetips;
+package marc.com.messagetips.Adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
